@@ -15,7 +15,7 @@ html {
 }
 /* Optional: show position indicator in red */
 ::-webkit-scrollbar-thumb {
-  background: #ff0000;
+  background: grey;
 }
 body {
   font-family: "Roboto", sans-serif;
@@ -43,7 +43,8 @@ i {
   padding: 0px;
 }
 #navbarSupportedContent {
-  overflow: hidden;
+  overflow-y: scroll;
+  overflow-x: hidden;
   position: relative;
 }
 #navbarSupportedContent ul {
@@ -170,11 +171,29 @@ i {
   }
 }
 
+.title {
+  display: inline-block;
+  font-size: 2rem;
+  font-weight: 100;
+  padding: 5px 0;
+  margin-bottom: 22px;
+  text-align: center;
+  border-bottom: solid 1px var(--bg-primary);
+  border-top: solid 1px var(--bg-primary);
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  line-height: 1.2;
+  color: --bg-primary;
+  letter-spacing: 0;
+}
+
 /* containers */
 .container {
   text-align: center;
   text-justify: center;
   margin-top: 2%;
+  margin-bottom: 55px;
+  overflow: auto;
 }
 /* footer */
 .footer {
@@ -228,5 +247,17 @@ i {
   }
   to {
     transform: rotate(360deg);
+  }
+}
+
+@media screen and (max-width: 480px) {
+  * {
+    font-size: 50%;
+  }
+}
+
+@media screen and (max-width: 700px) {
+  * {
+    font-size: 70%;
   }
 }

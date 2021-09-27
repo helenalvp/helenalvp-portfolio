@@ -2,12 +2,14 @@
   font-size: 30px;
 }
 
-.resume-btn {
+.resume-btn,
+btn {
   color: black;
   /* border: black; */
 }
 
-.resume-btn:hover {
+.resume-btn:hover,
+btn:hover {
   color: #d6c639;
   background-color: black;
   border-color: black;
@@ -16,7 +18,6 @@
 .avatar img {
   box-sizing: border-box;
   border-radius: 50%;
-  overflow: hidden;
   box-shadow: 0 5px 15px 0px rgba(0, 0, 0, 0.6);
   transform: translatey(0px);
   animation: float 6s ease-in-out infinite;
