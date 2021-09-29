@@ -11,7 +11,7 @@ import Resume from "../../assets/resume.pdf";
 
 const About = () => {
   return (
-    <div className="container">
+    <div className="container mt-3">
       <header className="text-center"></header>
       <div className="row">
         <div
