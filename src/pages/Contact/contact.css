@@ -6,8 +6,6 @@ textarea {
   resize: vertical;
   max-height: 200px;
 }
-.icon {
-}
 
 .icon:hover {
   transform: scale(0.9);
