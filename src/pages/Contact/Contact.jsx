@@ -11,14 +11,15 @@ const Contact = () => {
   return (
     <div className="container">
       <h1 className="title">Contact Me</h1>
-      <div
-        className="card bg-transparent shadow-lg p-3 mb-5 mt-4 bg-body rounded "
-        method="POST"
-        netlify-honeypot="bot-field"
-        data-netlify="true"
-        name="contact"
-      >
-        <form className=" container bg-transparent mb-5 bg-body rounded">
+      <div className="card bg-transparent shadow-lg p-3 mb-5 mt-4 bg-body rounded ">
+        <form
+          className=" container bg-transparent mb-5 bg-body rounded"
+          method="POST"
+          netlify-honeypot="bot-field"
+          data-netlify="true"
+          name="contact"
+          netlify
+        >
           <div className="row">
             <div className="col">
               <input
