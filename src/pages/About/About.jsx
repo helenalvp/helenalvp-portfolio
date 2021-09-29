@@ -16,29 +16,25 @@ const About = () => {
       <div className="row">
         <div
           data-animate="fadeInUp"
-          className="col-lg-6 animated fadeInUp mt-3 about-text"
+          className="col-lg-6 animated fadeInUp mt-5 about-text"
         >
           <h2 data-animate="fadeInDown" className="title animated fadeInDown">
             About me
           </h2>
           <p>
             I have worked in Full Stack projects with React in the front end and
-            .NET in the back end. I have also worked with other js frameworks
-            and libraries such as Express.js and Socket.io.
+            .NET in the back end.I have also worked with other js frameworks and
+            libraries such as Express.js and Socket.io.
           </p>
-          I found a love for programming due to its versatility and endless pool
-          of knowledge you can tap into.
           <p>
-            I have worked in multiple group coding projects and am most
-            comfortable in agile environments.
+            I found a love for programming due to its versatility and endless
+            pool of knowledge you can tap into.
           </p>
           <p>
             Right now, I am focusing on creating a scalable bug tracker that
-            will keep track of my progress and bugs for my future projects. I
-            have recently helped integrate the facebook graph api to perzonalize
-            a users profile. In the future, I plan on expanding my horizons and
-            focus more towards automation and scalability, but I am always open
-            to anything.
+            will keep track of my progress and bugs for my future projects. In
+            the future, I plan on expanding my horizons and focus more towards
+            automation and scalability, but I am always open to anything.
           </p>
           <p>
             <a
