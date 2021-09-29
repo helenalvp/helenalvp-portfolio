@@ -69,7 +69,7 @@ const Contact = () => {
           target="_blank"
           rel="noreferrer"
         >
-          <FontAwesomeIcon class="icon github col-5" icon={faGithubSquare} />
+          <FontAwesomeIcon class="icon github col-4" icon={faGithubSquare} />
         </a>
         <a
           href="https://twitter.com/helenalvp"
@@ -77,7 +77,7 @@ const Contact = () => {
           rel="noreferrer"
           class="icon twitter col-3"
         >
-          <FontAwesomeIcon class="icon twitter col-5" icon={faTwitterSquare} />{" "}
+          <FontAwesomeIcon class="icon twitter col-4" icon={faTwitterSquare} />{" "}
         </a>
         <a
           href="https://www.linkedin.com/in/helenalvp"
@@ -85,7 +85,7 @@ const Contact = () => {
           rel="noreferrer"
           class="icon linkedin col-3"
         >
-          <FontAwesomeIcon class="icon linkedin col-5" icon={faLinkedin} />{" "}
+          <FontAwesomeIcon class="icon linkedin col-4" icon={faLinkedin} />{" "}
         </a>
         <a
           href="https://dev.to/helenalvp"
@@ -93,7 +93,7 @@ const Contact = () => {
           class="icon dev col-3"
           rel="noreferrer"
         >
-          <FontAwesomeIcon class="icon dev col-5" icon={faDev} />
+          <FontAwesomeIcon class="icon dev col-4" icon={faDev} />
         </a>
       </div>
     </div>
