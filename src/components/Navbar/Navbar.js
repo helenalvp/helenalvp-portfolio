@@ -2,6 +2,8 @@ import React, { useEffect } from "react";
 // import "./Navbar.css";
 import { NavLink } from "react-router-dom";
 import $ from "jquery";
+// import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+// import { faUser } from "@fortawesome/free-regular-svg-icons";
 
 const Navbar = () => {
   function animation() {
@@ -74,13 +76,13 @@ const Navbar = () => {
 
           <li className="nav-item active">
             <NavLink className="nav-link" to="/" exact>
-              <i className="fas fa-tachometer-alt"></i>Home
+              <i className="fas fa-home"></i>Home
             </NavLink>
           </li>
 
           <li className="nav-item">
             <NavLink className="nav-link" to="/about" exact>
-              <i className="far fa-address-book"></i>About
+              <i className="far fa-user"></i>About
             </NavLink>
           </li>
 

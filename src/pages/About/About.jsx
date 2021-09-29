@@ -39,7 +39,7 @@ const About = () => {
             a users profile. In the future, I plan on expanding my horizons and
             focus more towards automation and scalability, but I am always open
             to anything.
-          </p>{" "}
+          </p>
           <p>
             <a
               href={Resume}
@@ -63,7 +63,7 @@ const About = () => {
         >
           <img
             src={MyImage}
-            alt="This is me - IT worker"
+            alt="This is me"
             className="image rounded-circle img-fluid"
           />
         </div>
@@ -71,13 +71,17 @@ const About = () => {
       {/* skills */}
       <div className="container">
         <header className="text-center">
-          <h2 data-animate="fadeInDown" className="title animated fadeInDown">
+          <h3
+            data-animate="fadeInDown"
+            className=" title animated fadeInDown"
+            id="tech-title"
+          >
             Technologies
-          </h2>
+          </h3>
         </header>
 
         {/* <!-- Skills--> */}
-        <div id="skills" className="skills-section bg-gray mt-5">
+        <div id="skills" className="skills-section bg-gray mt-2">
           <div className="bg-transparent">
             <div className="col-md-12">
               <div className="row align-items-center">

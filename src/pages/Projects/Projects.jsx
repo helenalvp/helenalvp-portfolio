@@ -34,8 +34,8 @@ class Projects extends React.Component {
     >
       <img src={projectObj.cardImage} alt={projectObj.name} />
       <div className="card-img-overlay card-overlay overflow-auto text-white">
-        <h5 className="card-title">{projectObj.name}</h5>
-        <p className="card-text ">{projectObj.description}</p>
+        {/* <h5 className="card-title">{projectObj.name}</h5> */}
+        {/* <p className="card-text ">{projectObj.description}</p> */}
         <a
           href={projectObj.link}
           className="btn btn-dark m-2"
@@ -144,17 +144,14 @@ class Projects extends React.Component {
       <div className="container project-container">
         <h1 className="title">My Work</h1>
         <div className="row">
-          <div className="col-12">
+          <div className="col-12"></div>
+          <div className="col-5">
+            <div className="row">{this.MappedProjects()}</div>
+          </div>
+          <div className="col-7">
             {this.state.expandedInfo
               ? this.expandedCard(this.state.expandedInfo)
               : null}
-          </div>
-          <div className="col-8">
-            <div className="row">{this.MappedProjects()}</div>
-          </div>
-          <div className="col-4 opacity-50">
-            {/* blog section, if there is notthing clicked */}
-            Blog Section
           </div>
         </div>
       </div>
