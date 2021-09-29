@@ -12,13 +12,10 @@ const Contact = () => {
     <div className="container">
       <h1 className="title">Contact Me</h1>
       <div className="card bg-transparent shadow-lg p-3 mb-5 mt-4 bg-body rounded ">
-        <input type="hidden" name="form-name" value="contact" />
         <div class="messages"></div>
         <form
           className=" container bg-transparent mb-5 bg-body rounded"
           method="POST"
-          netlify-honeypot="bot-field"
-          data-netlify="true"
           data-netlify-recaptcha="true"
           name="contact"
           id="contact-form"
