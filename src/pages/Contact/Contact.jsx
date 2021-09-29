@@ -12,7 +12,6 @@ const Contact = () => {
     <div className="container">
       <h1 className="title">Contact Me</h1>
       <div className="card bg-transparent shadow-lg p-3 mb-5 mt-4 bg-body rounded ">
-        <div class="messages"></div>
         <form
           className=" container bg-transparent mb-5 bg-body rounded"
           method="POST"
@@ -21,6 +20,12 @@ const Contact = () => {
           id="contact-form"
           netlify
         >
+          <input
+            type="hidden"
+            name="contact-name"
+            value="contact"
+            data-netlify-recaptcha="true"
+          />
           <div className="row">
             <div className="col">
               <input
