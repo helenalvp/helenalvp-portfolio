@@ -16,6 +16,7 @@ const Contact = () => {
         method="POST"
         netlify-honeypot="bot-field"
         data-netlify="true"
+        name="contact"
       >
         <form className=" container bg-transparent mb-5 bg-body rounded">
           <div className="row">
@@ -24,6 +25,7 @@ const Contact = () => {
                 type="text"
                 className="form-control"
                 placeholder="First name *"
+                name="first-name"
               />
             </div>
             <div className="col">
@@ -31,6 +33,7 @@ const Contact = () => {
                 type="text"
                 className="form-control"
                 placeholder="Last name *"
+                name="last-name-name"
               />
             </div>
           </div>
@@ -41,6 +44,7 @@ const Contact = () => {
               id="exampleInputEmail1"
               aria-describedby="emailHelp"
               placeholder="Email *"
+              name="email"
             />
           </div>
           <div className="form-group">
@@ -49,6 +53,7 @@ const Contact = () => {
               id="exampleFormControlTextarea1"
               rows="3"
               placeholder="Message for me *"
+              name="message"
             ></textarea>
           </div>
           <div data-netlify-recaptcha="true"></div>
