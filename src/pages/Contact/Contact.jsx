@@ -14,8 +14,8 @@ const Contact = () => {
       <div className="card bg-transparent shadow-lg p-3 mb-5 mt-4 bg-body rounded ">
         <form
           className=" container bg-transparent mb-5 bg-body rounded"
-          method="POST"
           name="contact"
+          method="post"
         >
           <div className="row">
             <div className="col">
@@ -25,7 +25,7 @@ const Contact = () => {
                 placeholder="First name *"
                 name="first-name"
               />
-              {/* <input type="hidden" name="bot-field" value="contact" /> */}
+              <input type="hidden" name="form-name" value="contact" />
             </div>
             <div className="col">
               <input
@@ -53,7 +53,6 @@ const Contact = () => {
               name="message"
             ></textarea>
           </div>
-          <div data-netlify-recaptcha="true"></div>
           <button type="submit" className="btn btn-dark">
             Send Message
           </button>
