@@ -15,7 +15,6 @@ const Contact = () => {
         <form
           className=" container bg-transparent mb-5 bg-body rounded"
           method="POST"
-          data-netlify-recaptcha="true"
           name="contact"
           id="contact-form"
           netlify
@@ -58,7 +57,6 @@ const Contact = () => {
               name="message"
             ></textarea>
           </div>
-          <div data-netlify-recaptcha="true"></div>
           <button type="submit" className="btn btn-dark">
             Send Message
           </button>
