@@ -33,7 +33,7 @@ class Projects extends React.Component {
       style={{ width: "18rem" }}
     >
       <img src={projectObj.cardImage} alt={projectObj.name} />
-      <div className="card-img-overlay card-overlay overflow-auto text-white">
+      <div className="card-img-overlay card-overlay overflow-auto text-white ">
         {/* <h5 className="card-title">{projectObj.name}</h5> */}
         {/* <p className="card-text ">{projectObj.description}</p> */}
         <a
