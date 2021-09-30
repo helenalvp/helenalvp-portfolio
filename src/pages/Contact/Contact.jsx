@@ -14,10 +14,8 @@ const Contact = () => {
       <div className="card bg-transparent shadow-lg p-3 mb-5 mt-4 bg-body rounded ">
         <form
           className=" container bg-transparent mb-5 bg-body rounded"
-          method="POST"
+          method="post"
           name="contact"
-          id="contact-form"
-          netlify
         >
           <div className="row">
             <div className="col">
