@@ -20,12 +20,6 @@ const Contact = () => {
           id="contact-form"
           netlify
         >
-          <input
-            type="hidden"
-            name="contact-name"
-            value="contact"
-            data-netlify-recaptcha="true"
-          />
           <div className="row">
             <div className="col">
               <input
@@ -40,7 +34,7 @@ const Contact = () => {
                 type="text"
                 className="form-control"
                 placeholder="Last name *"
-                name="last-name-name"
+                name="last-name"
               />
             </div>
           </div>
@@ -76,7 +70,7 @@ const Contact = () => {
           target="_blank"
           rel="noreferrer"
         >
-          <FontAwesomeIcon class="icon github col-4" icon={faGithubSquare} />
+          <FontAwesomeIcon class="icon github col-md-4" icon={faGithubSquare} />
         </a>
         <a
           href="https://twitter.com/helenalvp"
@@ -84,7 +78,10 @@ const Contact = () => {
           rel="noreferrer"
           class="icon twitter col-3"
         >
-          <FontAwesomeIcon class="icon twitter col-4" icon={faTwitterSquare} />{" "}
+          <FontAwesomeIcon
+            class="icon twitter col-md-4"
+            icon={faTwitterSquare}
+          />{" "}
         </a>
         <a
           href="https://www.linkedin.com/in/helenalvp"
@@ -92,7 +89,7 @@ const Contact = () => {
           rel="noreferrer"
           class="icon linkedin col-3"
         >
-          <FontAwesomeIcon class="icon linkedin col-4" icon={faLinkedin} />{" "}
+          <FontAwesomeIcon class="icon linkedin col-md-4" icon={faLinkedin} />{" "}
         </a>
         <a
           href="https://dev.to/helenalvp"
@@ -100,7 +97,7 @@ const Contact = () => {
           class="icon dev col-3"
           rel="noreferrer"
         >
-          <FontAwesomeIcon class="icon dev col-4" icon={faDev} />
+          <FontAwesomeIcon class="icon dev col-md-4" icon={faDev} />
         </a>
       </div>
     </div>
