@@ -9,14 +9,14 @@ import { faTwitterSquare } from "@fortawesome/free-brands-svg-icons";
 
 const Contact = () => {
   return (
-    <div className="container">
+    <div className="container mt-5 ">
       <h1 className="title">Contact Me</h1>
       <div className="card bg-transparent shadow-lg p-3 mb-5 mt-4 bg-body rounded ">
         <form
           className=" container bg-transparent mb-5 bg-body rounded"
           name="contact"
           method="post"
-          action="/"
+          action="/contact"
         >
           <div className="row">
             <div className="col">
@@ -66,7 +66,10 @@ const Contact = () => {
           target="_blank"
           rel="noreferrer"
         >
-          <FontAwesomeIcon class="icon github col-md-4" icon={faGithubSquare} />
+          <FontAwesomeIcon
+            class="icon github col-md-10 col-lg-6"
+            icon={faGithubSquare}
+          />
         </a>
         <a
           href="https://twitter.com/helenalvp"
@@ -75,7 +78,7 @@ const Contact = () => {
           class="icon twitter col-3"
         >
           <FontAwesomeIcon
-            class="icon twitter col-md-4"
+            class="icon twitter col-md-10 col-lg-6"
             icon={faTwitterSquare}
           />{" "}
         </a>
@@ -85,7 +88,10 @@ const Contact = () => {
           rel="noreferrer"
           class="icon linkedin col-3"
         >
-          <FontAwesomeIcon class="icon linkedin col-md-4" icon={faLinkedin} />{" "}
+          <FontAwesomeIcon
+            class="icon linkedin col-md-10 col-lg-6"
+            icon={faLinkedin}
+          />{" "}
         </a>
         <a
           href="https://dev.to/helenalvp"
@@ -93,7 +99,7 @@ const Contact = () => {
           class="icon dev col-3"
           rel="noreferrer"
         >
-          <FontAwesomeIcon class="icon dev col-md-4" icon={faDev} />
+          <FontAwesomeIcon class="icon dev col-md-10 col-lg-6" icon={faDev} />
         </a>
       </div>
     </div>

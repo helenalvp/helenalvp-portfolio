@@ -141,14 +141,15 @@ class Projects extends React.Component {
 
   render() {
     return (
-      <div className="container project-container">
+      <div className="container project-container mt-5">
         <h1 className="title">My Work</h1>
         <div className="row">
-          <div className="col-12"></div>
-          <div className="col-5">
-            <div className="row">{this.MappedProjects()}</div>
+          <div className="col-lg-5 col-12 ">
+            <div className="row d-flex justify-content-center mt-4">
+              {this.MappedProjects()}
+            </div>
           </div>
-          <div className="col-7">
+          <div className="col-lg-7 col-12 order-first order-lg-last">
             {this.state.expandedInfo
               ? this.expandedCard(this.state.expandedInfo)
               : null}

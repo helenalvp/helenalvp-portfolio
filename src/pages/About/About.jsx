@@ -66,7 +66,7 @@ const About = () => {
       </div>
       {/* skills */}
       <div className="container">
-        <header className="text-center">
+        <header className="text-center mt-5">
           <h3
             data-animate="fadeInDown"
             className=" title animated fadeInDown"
