@@ -25,7 +25,7 @@ const Contact = () => {
                 placeholder="First name *"
                 name="first-name"
               />
-              <input type="hidden" name="bot-field" value="contact" />
+              {/* <input type="hidden" name="bot-field" value="contact" /> */}
             </div>
             <div className="col">
               <input
@@ -53,6 +53,7 @@ const Contact = () => {
               name="message"
             ></textarea>
           </div>
+          <div data-netlify-recaptcha="true"></div>
           <button type="submit" className="btn btn-dark">
             Send Message
           </button>
