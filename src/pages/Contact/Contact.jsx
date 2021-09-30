@@ -16,6 +16,7 @@ const Contact = () => {
           className=" container bg-transparent mb-5 bg-body rounded"
           name="contact"
           method="post"
+          action="/"
         >
           <div className="row">
             <div className="col">
