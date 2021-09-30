@@ -9,7 +9,7 @@ const screenHeight = screen.height;
 const screenWidth = screen.width;
 const particleNumberVal =
   screenHeight > 500 ? (screenHeight > 700 ? 200 : 100) : 25;
-const particleSizeVal = screenWidth > 700 ? 9 : 6;
+const particleSizeVal = screenWidth > 1100 ? (screenWidth > 1350 ? 7 : 4) : 3;
 
 const Home = () => {
   return (

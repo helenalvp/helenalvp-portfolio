@@ -24,6 +24,7 @@ var cartChecker = {
     "This is designed to be a companion for your shopping trips. Just have it out while you're shopping, adding every item and its price to your cart. While you shop, you can figure out exactly how much you have in your cart and how much you'll be paying in taxes before you hit the register!",
   shortDescription: "A Grocery Shopping List App",
   link: "https://helenalvp-cart-checker.netlify.app/",
+  technologies: "React.js ",
   expanded: "",
 };
 var tacoCat = {
