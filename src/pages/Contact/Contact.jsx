@@ -28,6 +28,7 @@ const Contact = () => {
                 placeholder="First name *"
                 name="first-name"
               />
+              <input type="hidden" name="bot-field" value="contact" />
             </div>
             <div className="col">
               <input
