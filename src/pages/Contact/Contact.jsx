@@ -14,7 +14,7 @@ const Contact = () => {
       <div className="card bg-transparent shadow-lg p-3 mb-5 mt-4 bg-body rounded ">
         <form
           className=" container bg-transparent mb-5 bg-body rounded"
-          method="post"
+          method="POST"
           name="contact"
         >
           <div className="row">
@@ -40,8 +40,7 @@ const Contact = () => {
             <input
               type="email"
               className="form-control"
-              id="exampleInputEmail1"
-              aria-describedby="emailHelp"
+              aria-describedby="email"
               placeholder="Email *"
               name="email"
             />
@@ -49,7 +48,6 @@ const Contact = () => {
           <div className="form-group">
             <textarea
               className="form-control"
-              id="exampleFormControlTextarea1"
               rows="3"
               placeholder="Message for me *"
               name="message"
