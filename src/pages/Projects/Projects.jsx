@@ -20,29 +20,32 @@ class Projects extends React.Component {
   };
 
   ProjectCard = (projectObj, index) => (
-    <div class="accordion-item work-card">
+    <div class="accordion-item work-card p-0 m-0">
       <h2 class="accordion-header work-card" id={`flush-heading${index}`}>
         <button
-          class="accordion-button collapsed work-card"
+          class="accordion-button collapsed work-card pt-5 pb-0"
           type="button"
           data-bs-toggle="collapse"
           data-bs-target={`#flush-collapse${index}`}
           aria-expanded="false"
           aria-controls={`flush-collapse${index}`}
         >
-          <div className="work-card " style={{ "max-width": "540px" }}>
-            <div className="row g-0">
+          <div className="p-0 m-0" style={{ "max-width": "540px" }}>
+            <div className="row g-0 p-0 m-0">
               <div className="col-12 col-md-5">
                 <img
                   src={projectObj.cardImage}
                   alt={projectObj.name}
-                  className="img-fluid project-image"
+                  className="img-fluid project-image p-0 m-0"
                 />
               </div>
               <div className="col">
-                <div className="card-body">
+                <div className="card-body p-0 m-0">
                   <h5 className="card-title">{projectObj.name}</h5>
                   <p>{projectObj.shortDescription}</p>
+                  <p className="card-text technologies">
+                    {projectObj.technologies}
+                  </p>
                 </div>
               </div>
             </div>
@@ -113,11 +116,7 @@ class Projects extends React.Component {
             </div>
           </p>
           <p className="card-text ">{projectObj.description}</p>
-          <p className="card-text technologies fs-5">
-            {projectObj.technologies
-              ? `Technologies Used: ${projectObj.technologies}`
-              : null}
-          </p>
+
           <p className="card-text">
             <a
               href={projectObj.link}

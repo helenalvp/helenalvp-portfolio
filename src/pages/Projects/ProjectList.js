@@ -28,6 +28,21 @@ export var Featured = {
   githubLink: "https://github.com/helenalvp/cart-checker",
   expanded: "",
 };
+// var budgetTracker = {
+// //needs images and logo for site
+//   name: "Budget Tracker",
+//   cardImage: cartCheckerTitleCard,
+//   img: [cartChecker1, cartChecker2, cartChecker3],
+//   type: "Project",
+//   description:
+//     "Local Budget Tracker used to track your expenses and your spending",
+//   shortDescription: "Budget Tracker",
+//   link: "https://helenalvp-budget-tracker.netlify.app/",
+//   technologies: "React.js, Bootstrap ",
+//   githubLink: "https://github.com/helenalvp/budget-app",
+//   demoLink: "https://youtu.be/foo6SyK7VKo",
+//   expanded: "",
+// };
 var cartChecker = {
   name: "Cart Checker",
   cardImage: cartCheckerTitleCard,
@@ -39,7 +54,7 @@ var cartChecker = {
   link: "https://helenalvp-cart-checker.netlify.app/",
   technologies: "React.js, Bootstrap ",
   githubLink: "https://github.com/helenalvp/cart-checker",
-  demoLink: "https://youtu.be/F6VlUOl_Bh4",
+  demoLink: "https://youtu.be/7xC28XfDVvw",
   expanded: "",
 };
 var tacoCat = {
@@ -65,7 +80,7 @@ var hundredNext = {
   shortDescription: "Loop Excercise",
   link: "https://helenalvp-hundrednext.netlify.app/",
   githubLink: "https://github.com/helenalvp/hundrednext",
-  demoLink: "https://youtu.be/F6VlUOl_Bh4",
+  demoLink: "https://youtu.be/amfWYba0dOQ",
   expanded: "",
 };
 var fizzBuzz = {
@@ -78,7 +93,7 @@ var fizzBuzz = {
   shortDescription: "FizzBuzz Challenge",
   link: "https://helenalvp-fizzbuzz.netlify.app/",
   githubLink: "https://github.com/helenalvp/fizzbuzz",
-  demoLink: "https://youtu.be/F6VlUOl_Bh4",
+  demoLink: "https://youtu.be/xDkNUhNjyoU",
   expanded: "",
 };
 
