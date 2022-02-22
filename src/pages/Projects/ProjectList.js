@@ -15,6 +15,19 @@ import fizzBuzz1 from "../../assets/img/project-images/fizz-buzz/screenshot-1.PN
 import fizzBuzz2 from "../../assets/img/project-images/fizz-buzz/screenshot-2.PNG";
 import fizzBuzz3 from "../../assets/img/project-images/fizz-buzz/screenshot-3.PNG";
 
+export var Featured = {
+  name: "Cart Checker",
+  cardImage: cartCheckerTitleCard,
+  img: [cartChecker1, cartChecker2, cartChecker3],
+  type: "Project",
+  description:
+    "This is designed to be a companion for your shopping trips. Just have it out while you're shopping, adding every item and its price to your cart. While you shop, you can figure out exactly how much you have in your cart and how much you'll be paying in taxes before you hit the register!",
+  shortDescription: "A Shopping List Site",
+  link: "https://helenalvp-cart-checker.netlify.app/",
+  technologies: "React.js, Bootstrap ",
+  githubLink: "https://github.com/helenalvp/cart-checker",
+  expanded: "",
+};
 var cartChecker = {
   name: "Cart Checker",
   cardImage: cartCheckerTitleCard,
@@ -22,9 +35,11 @@ var cartChecker = {
   type: "Project",
   description:
     "This is designed to be a companion for your shopping trips. Just have it out while you're shopping, adding every item and its price to your cart. While you shop, you can figure out exactly how much you have in your cart and how much you'll be paying in taxes before you hit the register!",
-  shortDescription: "A Grocery Shopping List App",
+  shortDescription: "Shopping List Site",
   link: "https://helenalvp-cart-checker.netlify.app/",
-  technologies: "React.js ",
+  technologies: "React.js, Bootstrap ",
+  githubLink: "https://github.com/helenalvp/cart-checker",
+  demoLink: "https://youtu.be/F6VlUOl_Bh4",
   expanded: "",
 };
 var tacoCat = {
@@ -34,8 +49,10 @@ var tacoCat = {
   type: "Code Challenge",
   description:
     "TacoCat is a palindrome. A Palindrome is a word, phrase, or sequence that reads the same backwards as forward. A program that checks if the phrase entered is a palindrome or not.",
-  shortDescription: "A Palindrome Excercise",
+  shortDescription: "Palindrome Excercise",
   link: "https://helenalvp-tacocat.netlify.app/",
+  githubLink: "https://github.com/helenalvp/tacocat",
+  demoLink: "https://youtu.be/F6VlUOl_Bh4",
   expanded: "",
 };
 var hundredNext = {
@@ -45,8 +62,10 @@ var hundredNext = {
   type: "Code Challenge",
   description:
     "A javascript coding excercise using loops. A program that displays the numbers from 0 to 100, and displays the even numbers BOLD",
-  shortDescription: "A Loop Excercise",
+  shortDescription: "Loop Excercise",
   link: "https://helenalvp-hundrednext.netlify.app/",
+  githubLink: "https://github.com/helenalvp/hundrednext",
+  demoLink: "https://youtu.be/F6VlUOl_Bh4",
   expanded: "",
 };
 var fizzBuzz = {
@@ -56,11 +75,11 @@ var fizzBuzz = {
   type: "Code Challenge",
   description:
     "A javascript coding project exercise using loops. A program that prints the numbers from 1 to 100 and for multiples of `3` display `Fizz` instead of the number and for the mutliples of `5` display `Buzz`. If a multiple of both, it displays `FizzBuzz`",
-  shortDescription: "A FizzBuzz Challenge",
+  shortDescription: "FizzBuzz Challenge",
   link: "https://helenalvp-fizzbuzz.netlify.app/",
+  githubLink: "https://github.com/helenalvp/fizzbuzz",
+  demoLink: "https://youtu.be/F6VlUOl_Bh4",
   expanded: "",
 };
 
-var projectList = [cartChecker, tacoCat, hundredNext, fizzBuzz];
-
-export default projectList;
+export var ProjectList = [cartChecker, tacoCat, hundredNext, fizzBuzz];

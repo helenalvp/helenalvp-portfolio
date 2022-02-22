@@ -11,11 +11,11 @@ const Footer = () => (
       <p>© 2021 Helena Vaquera. All rights reserved.</p>
     </div>
 
-    <div className="social-links col">
-      <div class="text-right">
+    <div className="social-links col-8 col-sm-6 ">
+      <div class="text-right mr-md-5">
         <a
           href="https://github.com/helenalvp"
-          class="icon github "
+          class="icon github"
           target="_blank"
           rel="noreferrer"
         >
@@ -29,7 +29,7 @@ const Footer = () => (
           href="https://www.linkedin.com/in/helenalvp"
           target="_blank"
           rel="noreferrer"
-          class="icon linkedin"
+          class="icon linkedin "
         >
           <FontAwesomeIcon
             class="icon linkedin mx-2 px-2"
