@@ -268,10 +268,8 @@ i {
 }
 
 @media screen and (max-width: 380px) {
+  .social-links,
   .project-image {
-    height: 20%;
-  }
-  .social-links {
     display: none;
   }
 }
