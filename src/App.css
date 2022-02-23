@@ -266,3 +266,9 @@ i {
     font-size: 70%;
   }
 }
+
+@media screen and (max-width: 380px) {
+  .social-links {
+    display: none;
+  }
+}
