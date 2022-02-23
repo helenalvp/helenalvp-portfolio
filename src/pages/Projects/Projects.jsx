@@ -64,7 +64,7 @@ class Projects extends React.Component {
         <div class="accordion-body">
           <p className="card-text">
             <div
-              id="carouselExampleControls"
+              id={`carouselExampleControls${index}`}
               className="carousel slide  carousel-dark card-img-top"
               data-bs-ride="carousel "
             >
@@ -94,7 +94,7 @@ class Projects extends React.Component {
               <button
                 className="carousel-control-prev"
                 type="button"
-                data-bs-target="#carouselExampleControls"
+                data-bs-target={`#carouselExampleControls${index}`}
                 data-bs-slide="prev"
               >
                 <span
@@ -106,7 +106,7 @@ class Projects extends React.Component {
               <button
                 className="carousel-control-next"
                 type="button"
-                data-bs-target="#carouselExampleControls"
+                data-bs-target={`#carouselExampleControls${index}`}
                 data-bs-slide="next"
               >
                 <span
