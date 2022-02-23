@@ -269,6 +269,9 @@ i {
 
 @media screen and (max-width: 380px) {
   .social-links {
+    size: 50%;
+  }
+  .project-image {
     display: none;
   }
 }
