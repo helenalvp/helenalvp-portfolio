@@ -21,7 +21,7 @@ const Home = () => {
         </div>
       </div>
 
-      {screenWidth >= 1000 ? (
+      {
         <Particles
           className="particles-container"
           style={{ color: "black", "margin-top": "1%" }}
@@ -51,7 +51,7 @@ const Home = () => {
             },
           }}
         />
-      ) : null}
+      }
     </React.Fragment>
   );
 };

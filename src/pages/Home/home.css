@@ -51,3 +51,16 @@
     border-color: black;
   }
 }
+
+@media (max-width: 991px) {
+  .particles-container {
+    /* display: none; */
+    transform: translate(-999px, 0px);
+  }
+}
+
+@media (min-width: 992px) {
+  .particles-container {
+    /* display: initial; */
+  }
+}
