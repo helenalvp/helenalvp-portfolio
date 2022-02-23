@@ -268,10 +268,11 @@ i {
 }
 
 @media screen and (max-width: 380px) {
+  .project-image,
   .social-links {
-    size: 50%;
+    height: 50%;
   }
-  .project-image {
+  /* .social-links {
     display: none;
-  }
+  } */
 }
