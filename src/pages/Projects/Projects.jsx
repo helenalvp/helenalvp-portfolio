@@ -23,7 +23,7 @@ class Projects extends React.Component {
     <div class="accordion-item work-card p-0 m-0">
       <h2 class="accordion-header work-card" id={`flush-heading${index}`}>
         <button
-          class="accordion-button collapsed work-card pt-5 pb-0"
+          class="accordion-button collapsed work-card pt-4 pb-0 border-bottom border-dark"
           type="button"
           data-bs-toggle="collapse"
           data-bs-target={`#flush-collapse${index}`}
@@ -41,16 +41,18 @@ class Projects extends React.Component {
               </div>
               <div className="col">
                 <div className="card-body p-0 m-0">
-                  <h5 className="card-title">{projectObj.name}</h5>
-                  <p>{projectObj.shortDescription}</p>
-                  <p className="card-text technologies">
-                    {projectObj.technologies}
+                  <h4 className="card-title">{projectObj.name}</h4>
+                  <p className="fs-5">
+                    {projectObj.shortDescription}
+                    <br />
+                    <span className="card-text technologies fs-6">
+                      {projectObj.technologies}
+                    </span>
                   </p>
                 </div>
               </div>
             </div>
           </div>
-          ;
         </button>
       </h2>
       <div
@@ -246,7 +248,7 @@ class Projects extends React.Component {
 
         <div className="row bg-transparent">
           <div
-            class="accordion accordion-flush bg-transparent"
+            class="accordion accordion-flush bg-transparent border-top border-dark"
             id="accordionFlushExample"
           ></div>
           {/* <div className="row d-flex justify-content-center mt-4"> */}

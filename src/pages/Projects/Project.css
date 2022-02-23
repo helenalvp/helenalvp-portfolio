@@ -36,3 +36,9 @@
 .project-image {
   max-height: 70%;
 }
+
+.accordion-title {
+  background-color: var(--bg-primary);
+  color: var(--main-primary);
+  border: var(--main-primary);
+}
