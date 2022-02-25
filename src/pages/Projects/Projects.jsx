@@ -248,7 +248,7 @@ class Projects extends React.Component {
 
         <div className="row bg-transparent">
           <div
-            class="accordion accordion-flush bg-transparent border-bottom border-dark"
+            class="accordion accordion-flush bg-transparent"
             id="accordionFlushExample"
           ></div>
           {/* <div className="row d-flex justify-content-center mt-4"> */}
